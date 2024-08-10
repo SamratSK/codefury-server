@@ -1,0 +1,35 @@
+{
+    "flood": {
+        "description": "Floods are an overflow of water that submerges land that is usually dry. They can be caused by heavy rainfall, storm surges, or the failure of dams.",
+        "updates": [
+            "Flood warning issued for coastal areas.",
+            "Heavy rainfall expected in the northern region."
+        ],
+        "safety_tips": [
+            "Move to higher ground immediately.",
+            "Avoid walking or driving through floodwaters."
+        ]
+    },
+    "earthquake": {
+        "description": "Earthquakes are sudden, rapid shaking of the ground caused by the breaking and shifting of subterranean rock as it releases strain.",
+        "updates": [
+            "A 5.4 magnitude earthquake detected in the western region.",
+            "Aftershocks expected in the next 24 hours."
+        ],
+        "safety_tips": [
+            "Drop, cover, and hold on during an earthquake.",
+            "Stay indoors until the shaking stops."
+        ]
+    },
+    "hurricane": {
+        "description": "Hurricanes are large, swirling storms that form over warm ocean waters. They can cause strong winds, heavy rainfall, and flooding.",
+        "updates": [
+            "Category 3 hurricane approaching the eastern coast.",
+            "Evacuation orders issued for coastal residents."
+        ],
+        "safety_tips": [
+            "Know your evacuation routes.",
+            "Stock up on emergency supplies."
+        ]
+    }
+}
