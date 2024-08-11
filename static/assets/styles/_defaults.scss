@@ -1,0 +1,14 @@
+@use "./vars" as vars;
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color: vars.$clr-fg;
+  // background: linear-gradient(0deg, vars.$clr-bg-gradient-1, vars.$clr-bg-gradient-2);
+  background-color: #eee6ef;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+}

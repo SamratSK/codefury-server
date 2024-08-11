@@ -1,0 +1,52 @@
+@use "../vars" as vars;
+
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+
+  font-size: 107.25%;
+  border-radius: 0.35rem;
+  padding: 1rem 2rem;
+
+  transition: transform vars.$dur-small, box-shadow vars.$dur-small, background-color vars.$dur-small;
+
+  &--blank {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  // &--primary {
+  //   color: #fff;
+  //   background-color: vars.$clr-primary;
+
+  //   &:hover {
+  //     transform: translateY(-10%);
+  //     box-shadow: 0 1.2em 5em -0.625em vars.$clr-primary;
+  //   }
+
+  //   &:active,
+  //   &:focus,
+  //   &:focus-visible {
+  //     outline: 0.25rem solid vars.$clr-outline;
+  //   }
+  // }
+
+  // &--secondary {
+  //   color: inherit;
+  //   background-color: vars.$clr-secondary;
+
+  //   &:hover {
+  //     transform: translateY(-10%);
+  //   }
+
+  //   &:active,
+  //   &:focus,
+  //   &:focus-visible {
+  //     outline: 0.25rem solid vars.$clr-secondary-outline;
+  //   }
+  // }
+
+
+}

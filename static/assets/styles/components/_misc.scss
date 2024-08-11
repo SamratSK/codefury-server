@@ -1,0 +1,11 @@
+.container {
+  $padding-x: 2rem;
+  $padding-y: 0;
+
+  margin: 0 auto;
+  max-width: 1248px;
+
+  width: 100%;
+
+  padding: $padding-y $padding-x;
+}

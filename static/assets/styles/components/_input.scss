@@ -1,0 +1,27 @@
+@use 'sass:math';
+@use "../vars" as vars;
+
+$border: 0.093rem;
+
+.input {
+  font: inherit;
+  font-size: 107.25%;
+  accent-color: vars.$clr-primary;
+
+  border: $border solid vars.$clr-border;
+  border-radius: 0.35rem;
+  padding: 0.75rem 1.35rem;
+
+  transition: border-color vars.$dur-small, box-shadow vars.$dur-small;
+
+  color: currentColor;
+  background-color: vars.$clr-bg;
+  outline: none;
+
+  &:active,
+  &:focus,
+  &:focus-visible {
+    border-color: lighten(vars.$clr-primary, 10%);
+    outline: 0.25rem solid vars.$clr-outline;
+  }
+}

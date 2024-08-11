@@ -1,0 +1,22 @@
+.flx {
+  display: flex;
+
+  &--v {
+    flex-direction: column;
+  }
+
+  &--c,
+  &--ac {
+    align-items: center;
+  }
+
+  &--c,
+  &--jc {
+    justify-content: center;
+  }
+}
+
+.spacer,
+.flx--1 {
+  flex: 1;
+}
